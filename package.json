@@ -1,0 +1,24 @@
+{
+  "name": "social-tral-backend",
+  "version": "1.0.0",
+  "description": "social media backend",
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "homepage": "https://github.com/huzaifa838/social-test-backend#readme",
+  "bugs": {
+    "url": "https://github.com/huzaifa838/social-test-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huzaifa838/social-test-backend.git"
+  },
+  "license": "ISC",
+  "author": "md huzaifa",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
