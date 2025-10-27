@@ -1,5 +1,5 @@
 {
-  "name": "social-tral-backend",
+  "name": "social-trial-backend",
   "version": "1.0.0",
   "description": "social media backend",
   "keywords": [
@@ -16,13 +16,20 @@
   },
   "license": "ISC",
   "author": "md huzaifa",
-  "type": "commonjs",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/index.js"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10",
-    "prettier": "^3.6.2"
+    "nodemon": "^3.1.0",
+    "prettier": "^3.3.2"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.9.2"
   }
 }
